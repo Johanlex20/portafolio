@@ -293,7 +293,7 @@ header .cerrar-menu {
     }
 
     .details .botones a {
-      padding: 10px;
+      padding: 2px 20px;
       width: max-content;
     }
 
@@ -788,7 +788,7 @@ a {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 2px 20px;
   border-radius: 8px;
   width: max-content;
 }
@@ -801,7 +801,18 @@ a {
   background-color: var(--ColorAzulClaro);
   border: solid 3px;
   border-color: var(--ColorAzulClaro);
+  align-items: center;
+  justify-content: space-between;
+}
 
+ .btn  span {
+   margin-left: 10px; 
+}
+
+.btn .material-symbols-outlined {
+    font-size: 30px; /* Cambia a cualquier tamaño que necesites */
+    vertical-align: middle; /* Opcional: para alinear con el texto */
+    margin-left: 8px; /* Espacio entre el texto y el icono */
 }
 
 .btn-resumen {
