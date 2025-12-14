@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  portafolio:
+    build: .
+    container_name: mi_portafolio
+    restart: unless-stopped
+    ports:
+      - "4204:80"
